@@ -29,6 +29,12 @@ options:
      description:
         - name of the module to enable/disable
      required: true
+   force:
+     description:
+        - force disabling of the module and override apache2 warnings
+     required: false
+     choices: ['yes', 'no']
+     default: no
    state:
      description:
         - indicate the desired state of the resource
