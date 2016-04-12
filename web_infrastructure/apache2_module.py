@@ -31,7 +31,7 @@ options:
      required: true
    force:
      description:
-        - force disabling of the module and override apache2 warnings
+        - force disabling of default modules and override Debian warnings
      required: false
      choices: ['yes', 'no']
      default: no
